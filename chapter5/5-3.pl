@@ -3,6 +3,7 @@
 use strict;
 use warnings;
 use autodie;
+
 print "please input some strings,one string pre line:\n";
 chomp (my @array=<STDIN> );
 print "please input the width you want:\n";
