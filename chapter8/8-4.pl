@@ -3,8 +3,8 @@ use strict;
 use autodie;
 
 while (<>){
-	if (/match/){
+	if (/(?<hello>\b\w*a\b)/){
 		print "matched!\n";
-		print "$`<$&>$'\n";
+		print "\$1 contains '$+{hello}'\n";
 		}
-}
+	}

@@ -3,8 +3,9 @@ use strict;
 use autodie;
 
 while (<>){
-	if (/match/){
+	chomp;
+	if (/(?<one>\s\z)/){
 		print "matched!\n";
 		print "$`<$&>$'\n";
 		}
-}
+	}

@@ -1,10 +1,9 @@
 #!/usr/bin/perl -w
 use strict;
 use autodie;
-
 while (<>){
-	if (/match/){
+	if (/\ba\b/){
 		print "matched!\n";
 		print "$`<$&>$'\n";
 		}
-}
+	}
