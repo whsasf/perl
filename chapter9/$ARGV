@@ -1,0 +1,248 @@
+#!/usr/bin/perl -w
+## copyright (c) 2017 by ram
+## copyright (c) 2017 by ram
+use strict;
+use autodie;
+
+my $what="fred|barney";
+while (<>){
+	if (/($what){3}/){
+	  print "matcted!\n";
+	  print "$&\n";
+	}
+	}
+
+#!/usr/bin/perl -w
+## copyright (c) 2017 by ram
+## copyright (c) 2017 by ram
+use strict;
+
+open IN,  'xx';
+open OUT, '>>xx.out';
+
+while (<IN>){
+	s/fred/larry/gi;
+	print OUT $_;
+	}
+
+close IN;
+close OUT;
+
+#!/usr/bin/perl -w
+## copyright (c) 2017 by ram
+## copyright (c) 2017 by ram
+use strict;
+
+my $in = $ARGV[0];
+
+if (! defined $in){
+		die "Usage: $0 filename";
+	}
+my $out=$in;
+
+$out =~ s/(\.\w+)?$/.out/;
+
+if (! open IN,'<',$in){
+	die "can not open '$in' :$!";
+	}
+if (! open OUT,'>>',$out){
+	die "can ont write '$out': $!";
+	}
+	
+while (<IN>){
+	s/fred/larry/gi;
+	print OUT $_;
+	}
+
+close IN;
+close OUT;
+
+#!/usr/bin/perl -w
+## copyright (c) 2017 by ram
+## copyright (c) 2017 by ram
+use strict;
+
+my $in = $ARGV[0];
+
+if (! defined $in){
+		die "Usage: $0 filename";
+	}
+my $out=$in;
+
+$out =~ s/(\.\w+)?$/.out/;
+
+if (! open IN,'<',$in){
+	die "can not open '$in' :$!";
+	}
+if (! open OUT,'>>',$out){
+	die "can ont write '$out': $!";
+	}
+	
+while (<IN>){
+	chomp;
+	s/fred/\n/gi;
+	s/wilma/fred/gi;
+	s/\n/wilma/gi;
+	print OUT "$_\n";
+	}
+
+close IN;
+close OUT;
+
+#!/usr/bin/perl -w
+## copyright (c) 2017 by ram
+## copyright (c) 2017 by ram
+use strict;
+
+open OUT ,'>>','$ARGV';
+ 
+while (<>){
+	s/^#!(.*)/#!$1\n## copyright (c) 2017 by ram/;
+	print OUT $_;
+	}
+
+close OUT;#!/usr/bin/perl -w
+## copyright (c) 2017 by ram
+## copyright (c) 2017 by ram
+use strict;
+
+$^I=".bak";
+
+while (<>){
+	s/^#!(.*)/#!$1\n## copyright (c) 2017 by ram/;
+		print;
+	}
+#!/usr/bin/perl -w
+## copyright (c) 2017 by ram
+use strict;
+
+$^I=".bak";
+
+while (<>){
+	s/^#!(.*)/#!$1\n## copyright (c) 2017 by ram/;
+		print;
+	}
+#!/usr/bin/perl -w
+## copyright (c) 2017 by ram
+## copyright (c) 2017 by ram
+use strict;
+use autodie;
+
+my $what="fred|barney";
+while (<>){
+	if (/($what){3}/){
+	  print "matcted!\n";
+	  print "$&\n";
+	}
+	}
+
+#!/usr/bin/perl -w
+## copyright (c) 2017 by ram
+## copyright (c) 2017 by ram
+use strict;
+
+open IN,  'xx';
+open OUT, '>>xx.out';
+
+while (<IN>){
+	s/fred/larry/gi;
+	print OUT $_;
+	}
+
+close IN;
+close OUT;
+
+#!/usr/bin/perl -w
+## copyright (c) 2017 by ram
+## copyright (c) 2017 by ram
+use strict;
+
+my $in = $ARGV[0];
+
+if (! defined $in){
+		die "Usage: $0 filename";
+	}
+my $out=$in;
+
+$out =~ s/(\.\w+)?$/.out/;
+
+if (! open IN,'<',$in){
+	die "can not open '$in' :$!";
+	}
+if (! open OUT,'>>',$out){
+	die "can ont write '$out': $!";
+	}
+	
+while (<IN>){
+	s/fred/larry/gi;
+	print OUT $_;
+	}
+
+close IN;
+close OUT;
+
+#!/usr/bin/perl -w
+## copyright (c) 2017 by ram
+## copyright (c) 2017 by ram
+use strict;
+
+my $in = $ARGV[0];
+
+if (! defined $in){
+		die "Usage: $0 filename";
+	}
+my $out=$in;
+
+$out =~ s/(\.\w+)?$/.out/;
+
+if (! open IN,'<',$in){
+	die "can not open '$in' :$!";
+	}
+if (! open OUT,'>>',$out){
+	die "can ont write '$out': $!";
+	}
+	
+while (<IN>){
+	chomp;
+	s/fred/\n/gi;
+	s/wilma/fred/gi;
+	s/\n/wilma/gi;
+	print OUT "$_\n";
+	}
+
+close IN;
+close OUT;
+
+#!/usr/bin/perl -w
+## copyright (c) 2017 by ram
+## copyright (c) 2017 by ram
+use strict;
+
+open OUT ,'>>','$ARGV';
+ 
+while (<>){
+	s/^#!(.*)/#!$1\n## copyright (c) 2017 by ram/;
+	print OUT $_;
+	}
+
+close OUT;#!/usr/bin/perl -w
+## copyright (c) 2017 by ram
+## copyright (c) 2017 by ram
+use strict;
+
+$^I=".bak";
+
+while (<>){
+	s/^#!(.*)/#!$1\n## copyright (c) 2017 by ram/;
+		print;
+	}
+#!/usr/bin/perl -w
+## copyright (c) 2017 by ram
+use strict;
+
+$^I=".bak";
+
+while (<>){
+	s/^#!(.*)/#!$1\n## copyright (c) 2017 by ram/;
+		print;
+	}

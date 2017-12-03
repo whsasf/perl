@@ -1,5 +1,4 @@
 #!/usr/bin/perl -w
-## copyright (c) 2017 by ram
 use strict;
 use autodie;
 
