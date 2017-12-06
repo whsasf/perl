@@ -11,4 +11,4 @@ my $dirname=dirname $ARGV[0];
 #print "$dirname\n";
 $new_file=$dirname.'/'.$new_file;
 unlink $new_file if -e $new_file;
-link $old_file , $new_file;
+symlink $old_file , $new_file;
