@@ -1,0 +1,28 @@
+total 124
+ drwxr-xr-x  24 root root  4096 Oct 29 18:54 .
+ drwxr-xr-x  24 root root  4096 Oct 29 18:54 ..
+ drwxr-xr-x   2 root root 12288 Nov  3 19:39 bin
+ drwxr-xr-x   3 root root  4096 Dec  7 18:41 boot
+ drwxr-xr-x   2 root root  4096 Oct 29 11:16 cdrom
+ drwxr-xr-x   2 root root  4096 Oct 29 18:54 .config
+ drwxr-xr-x  21 root root  4400 Dec 18 22:29 dev
+ drwxr-xr-x 150 root root 12288 Dec 18 21:47 etc
+ drwxr-xr-x   4 root root  4096 Oct 29 11:17 home
+ lrwxrwxrwx   1 root root    32 Oct 29 11:18 initrd.img -> boot/initrd.img-4.8.0-53-generic
+ drwxr-xr-x  26 root root  4096 Nov 26 21:12 lib
+ drwxr-xr-x   2 root root  4096 Oct 29 11:51 lib64
+ drwx------   2 root root 16384 Oct 29 11:14 lost+found
+ drwxr-xr-x   3 root root  4096 Oct 29 11:49 media
+ drwxr-xr-x   2 root root  4096 Jun 28 23:00 mnt
+ drwxr-xr-x   5 root root  4096 Nov 30 20:52 opt
+ dr-xr-xr-x 241 root root     0 Dec 18 21:10 proc
+ drwx------   8 root root  4096 Dec  7 18:52 root
+ drwxr-xr-x  32 root root  1060 Dec 18 21:11 run
+ drwxr-xr-x   2 root root 12288 Dec 14 21:49 sbin
+ drwxr-xr-x   2 root root  4096 Jun 28 23:00 srv
+ dr-xr-xr-x  13 root root     0 Dec 18 22:58 sys
+ drwxrwxrwt  24 root root 12288 Dec 18 23:17 tmp
+ drwxr-xr-x  10 root root  4096 Jun 28 23:00 usr
+ drwxr-xr-x  13 root root  4096 Nov  9 20:16 var
+ lrwxrwxrwx   1 root root    29 Oct 29 11:18 vmlinuz -> boot/vmlinuz-4.8.0-53-generic
+
