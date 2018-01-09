@@ -9,8 +9,8 @@ given ($ARGV[0]){
 	when (! /\A\d+\Z/)  {print "not a number !\n"}
 	my @divisors = divisors($ARGV[0]);
 	my @empty;
-	when ( !(@divisors ~~ 2)) {print "it's odd!\n";continue }
-	when ( @divisors ~~ 2 ) {print "it's even!\n";continue }
+	when ( !(@divisors ~~ 2)) {print "it's odd!\n";continue}
+	when ( @divisors ~~ 2 ) {print "it's even!\n";continue}
 	when ( @divisors ~~ $favnum ) {print "can be divided by my favourite $favnum!\n";continue}
 	when ( !(@divisors ~~ $favnum) ) {print "can't be divided by my favourite $favnum!\n";continue}
 	when ( @divisors ~~ @empty )  {print "number is Prime!\n"}
